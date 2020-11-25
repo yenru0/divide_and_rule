@@ -76,6 +76,7 @@ class Context {
 
 List<bool> judgeContext(String result, Context context) {
   var temp = result.replaceAll('.', '').replaceAll(',', '').replaceAll('\'', '').replaceAll('\"', '').trim().toLowerCase().split(' ');
+  temp.removeWhere((element) => element.length == 0);
   var accuracyList = List.generate(context.words.length, (index) => false);
   for (int i = 0; i < context.words.length; i++) {
     if (i >= temp.length) {
