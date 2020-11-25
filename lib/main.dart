@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:divide_and_rule/Data.dart';
@@ -7,8 +8,6 @@ import 'dart:math';
 
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-//TODO: 데이터 관리 클래스 제작
 
 void main() {
   runApp(App());
@@ -161,6 +160,11 @@ class _ExecutingState extends State<Executing> {
 
   QuestionManager qm;
 
+  DateTime start;
+  DateTime now;
+
+  Timer _timer;
+
   TextEditingController _translationController = TextEditingController();
   TextEditingController _wordsController = TextEditingController();
 
@@ -169,8 +173,17 @@ class _ExecutingState extends State<Executing> {
     super.initState();
     rootBundle.loadString("assets/s1.json").then((value) {
       qm = QuestionManager(json.decode(value), forced: OptionData.additional_parameter_forced);
+      start = DateTime.now();
+      _timer = Timer.periodic(Duration(milliseconds: 250), (t) => setState(() => now = DateTime.now()));
+
       setState(nextContext);
     });
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _timer.cancel();
   }
 
   void reFrame(BuildContext ctx) {
@@ -195,26 +208,26 @@ class _ExecutingState extends State<Executing> {
       hint = temp
           .map(
             (int e) => InkWell(
-              onTap: (){
-                if(_wordsController.text.endsWith(" ")){
-                  _wordsController.text += _aContext.words[e];
-                  _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
-                } else {
-                  _wordsController.text += " " + _aContext.words[e];
-                  _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
-                }
-              },
+                onTap: () {
+                  if (_wordsController.text.endsWith(" ")) {
+                    _wordsController.text += _aContext.words[e];
+                    _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
+                  } else {
+                    _wordsController.text += " " + _aContext.words[e];
+                    _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
+                  }
+                },
                 child: Card(
-              child: Container(
-                child: Text(
-                  "${_aContext.words[e]}",
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
-                ),
-                padding: EdgeInsets.fromLTRB(9, 2, 9, 2),
-              ),
-              margin: EdgeInsets.fromLTRB(9, 6, 6, 9),
-              color: Colors.amber,
-            )),
+                  child: Container(
+                    child: Text(
+                      "${_aContext.words[e]}",
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
+                    ),
+                    padding: EdgeInsets.fromLTRB(9, 2, 9, 2),
+                  ),
+                  margin: EdgeInsets.fromLTRB(9, 6, 6, 9),
+                  color: Colors.amber,
+                )),
           )
           .toList();
     }
@@ -235,6 +248,19 @@ class _ExecutingState extends State<Executing> {
       appBar: AppBar(
         title: Text("실행 중 (${qm.chosen})"),
         backgroundColor: OptionData.main_bar_color,
+        actions: [
+          if (now != null)
+            Container(
+                padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
+                child: Text(
+                  "${now.difference(start).inSeconds}",
+                  style: TextStyle(inherit: true, fontSize: 32),
+                  textAlign: TextAlign.right,
+                ),
+              alignment: Alignment.center,
+
+            ),
+        ],
       ),
       body: SingleChildScrollView(
           child: Column(children: [
@@ -336,7 +362,9 @@ class _OptionState extends State<Option> {
               Expanded(
                   child: TextField(
                 style: TextStyle(color: OptionData.main_text_color),
-                onSubmitted: (value) {OptionData.additional_parameter_forced = value.trim();},
+                onSubmitted: (value) {
+                  OptionData.additional_parameter_forced = value.trim();
+                },
                 decoration: InputDecoration(hintText: OptionData.additional_parameter_forced ?? ""),
               ))
             ],
