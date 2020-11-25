@@ -157,7 +157,7 @@ class _ExecutingState extends State<Executing> {
   Context _aContext;
   List<bool> _matched = List.generate(1, (index) => true);
 
-  List<Card> hint;
+  List<Widget> hint;
 
   QuestionManager qm;
 
@@ -168,7 +168,7 @@ class _ExecutingState extends State<Executing> {
   void initState() {
     super.initState();
     rootBundle.loadString("assets/s1.json").then((value) {
-      qm = QuestionManager(json.decode(value), forced:OptionData.additional_parameter_forced);
+      qm = QuestionManager(json.decode(value), forced: OptionData.additional_parameter_forced);
       setState(nextContext);
     });
   }
@@ -190,20 +190,31 @@ class _ExecutingState extends State<Executing> {
     } else {
       _translationController.text = _aContext.translation ?? '';
       _wordsController.text = '';
-      var temp = List.generate((_aContext.words.length * 1.01).toInt(), (index) => Random().nextInt(_aContext.words.length - 1)).toSet().toList();
+      var temp = List.generate((_aContext.words.length * OptionData.hint_rate).toInt(), (index) => Random().nextInt(_aContext.words.length)).toSet().toList();
       temp.sort();
       hint = temp
           .map(
-            (int e) => Card(
+            (int e) => InkWell(
+              onTap: (){
+                if(_wordsController.text.endsWith(" ")){
+                  _wordsController.text += _aContext.words[e];
+                  _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
+                } else {
+                  _wordsController.text += " " + _aContext.words[e];
+                  _wordsController.selection = TextSelection.collapsed(offset: _wordsController.text.length);
+                }
+              },
+                child: Card(
               child: Container(
-                  child: Text(
-                    "${_aContext.words[e]}",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
-                  ),
-                  padding: EdgeInsets.fromLTRB(9, 2, 9, 2)),
+                child: Text(
+                  "${_aContext.words[e]}",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
+                ),
+                padding: EdgeInsets.fromLTRB(9, 2, 9, 2),
+              ),
               margin: EdgeInsets.fromLTRB(9, 6, 6, 9),
               color: Colors.amber,
-            ),
+            )),
           )
           .toList();
     }
@@ -247,7 +258,7 @@ class _ExecutingState extends State<Executing> {
         Container(
           child: TextFormField(
             textInputAction: TextInputAction.done,
-            onFieldSubmitted: (value)=>reFrame(context),
+            onFieldSubmitted: (value) => reFrame(context),
             decoration: InputDecoration(
                 border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
                 focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
@@ -272,7 +283,16 @@ class _ExecutingState extends State<Executing> {
                       scrollDirection: Axis.horizontal,
                       shrinkWrap: true,
                       //physics: NeverScrollableScrollPhysics(),
-                      itemBuilder: (_, index) => Container(width: 21, color: _matched[index] ? Colors.green : Colors.red, child: Text("$index", textAlign: TextAlign.center, style: TextStyle(color: Colors.white),), alignment: Alignment.center, margin: EdgeInsets.symmetric(horizontal: 1)),
+                      itemBuilder: (_, index) => Container(
+                          width: 21,
+                          color: _matched[index] ? Colors.green : Colors.red,
+                          child: Text(
+                            "$index",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          alignment: Alignment.center,
+                          margin: EdgeInsets.symmetric(horizontal: 1)),
                       itemCount: _aContext.words.length,
                     ))
 
@@ -307,20 +327,36 @@ class _OptionState extends State<Option> {
         children: [
           ListTile(
               title: Row(
-                children: [
-                  Expanded(
-                      child: Text("추가적인 선택 변수(forced)", style: TextStyle(color: OptionData.main_text_color, fontWeight: FontWeight.bold),)
-                  ),
-                  Expanded(
-                      child: TextField(
-                        style: TextStyle(color: OptionData.main_text_color),
-                        onSubmitted: (value)=> OptionData.additional_parameter_forced = value.trim(),
-                        decoration: InputDecoration(hintText: OptionData.additional_parameter_forced ?? ""),
-                      )
-                  )
-                ],
-              )
-          ),
+            children: [
+              Expanded(
+                  child: Text(
+                "추가적인 선택 변수(forced)",
+                style: TextStyle(color: OptionData.main_text_color, fontWeight: FontWeight.bold),
+              )),
+              Expanded(
+                  child: TextField(
+                style: TextStyle(color: OptionData.main_text_color),
+                onSubmitted: (value) {OptionData.additional_parameter_forced = value.trim();},
+                decoration: InputDecoration(hintText: OptionData.additional_parameter_forced ?? ""),
+              ))
+            ],
+          )),
+          ListTile(
+              title: Row(
+            children: [
+              Expanded(
+                  child: Text(
+                "힌트 비율",
+                style: TextStyle(color: OptionData.main_text_color, fontWeight: FontWeight.bold),
+              )),
+              Expanded(
+                  child: TextField(
+                style: TextStyle(color: OptionData.main_text_color),
+                onSubmitted: (value) => OptionData.hint_rate = double.tryParse(value) ?? OptionData.hint_rate,
+                decoration: InputDecoration(hintText: OptionData.hint_rate.toString() ?? ""),
+              ))
+            ],
+          )),
           ListTile(),
           ListTile(),
           ListTile(

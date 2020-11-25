@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class QuestionManager {
@@ -100,4 +99,6 @@ class OptionData {
   static Color main_btn_color = Colors.deepPurpleAccent;
 
   static String additional_parameter_forced = "";
+
+  static double hint_rate = 1.0;
 }
