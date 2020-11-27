@@ -241,103 +241,127 @@ class _ExecutingState extends State<Executing> {
 
   @override
   Widget build(BuildContext context) {
-    if (qm == null) {
-      return Scaffold();
-    }
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("실행 중 (${qm.chosen})"),
-        backgroundColor: OptionData.main_bar_color,
-        actions: [
-          if (now != null)
-            Container(
+    return WillPopScope(onWillPop: () async {
+      final value = await showDialog<bool>(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              content: Text("정말 종료하시겠습니까?"),
+              actions: [
+                FlatButton(
+                  child: Text("아니요"),
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                  },
+                ),
+                FlatButton(
+                  child: Text("예"),
+                  onPressed: () {
+                    Navigator.of(context).pop(true);
+                  },
+                )
+              ],
+            );
+          });
+      return value == true;
+    }, child: (() {
+      if (qm == null) {
+        return Scaffold();
+      }
+      return Scaffold(
+        appBar: AppBar(
+          title: Text("실행 중 (${qm.chosen})"),
+          backgroundColor: OptionData.main_bar_color,
+          actions: [
+            if (now != null)
+              Container(
                 padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
                 child: Text(
                   "${now.difference(start).inSeconds}",
                   style: TextStyle(inherit: true, fontSize: 32),
                   textAlign: TextAlign.right,
                 ),
-              alignment: Alignment.center,
-
-            ),
-        ],
-      ),
-      body: SingleChildScrollView(
-          child: Column(children: [
-        Container(
-          child: TextFormField(
-            decoration: InputDecoration(
-                border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                hintText: "translation"),
-            style: TextStyle(fontSize: 20, color: Colors.white),
-            keyboardType: TextInputType.multiline,
-            controller: _translationController,
-            maxLines: null,
-            expands: false,
-            readOnly: true,
-            textAlign: TextAlign.center,
-          ),
-          padding: EdgeInsets.fromLTRB(20, 5, 20, 0),
+                alignment: Alignment.center,
+              ),
+          ],
         ),
-        Container(
-          child: TextFormField(
-            textInputAction: TextInputAction.done,
-            onFieldSubmitted: (value) => reFrame(context),
-            decoration: InputDecoration(
-                border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                hintText: "write correct context"),
-            style: TextStyle(fontSize: 20, color: Colors.white),
-            keyboardType: TextInputType.text,
-            controller: _wordsController,
-            maxLines: null,
-            expands: false,
-            textAlign: TextAlign.center,
-          ),
-          padding: EdgeInsets.fromLTRB(20, 10, 20, 0),
-        ),
-        Container(
-            padding: EdgeInsets.fromLTRB(0, 30, 0, 20),
-            child: _matched.every((e) => e)
-                ? null
-                : SizedBox(
-                    height: 60,
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      shrinkWrap: true,
-                      //physics: NeverScrollableScrollPhysics(),
-                      itemBuilder: (_, index) => Container(
-                          width: 21,
-                          color: _matched[index] ? Colors.green : Colors.red,
-                          child: Text(
-                            "$index",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          alignment: Alignment.center,
-                          margin: EdgeInsets.symmetric(horizontal: 1)),
-                      itemCount: _aContext.words.length,
-                    ))
-
-            //Text("${_matched.every((e)=>e) ? '' : '틀렸다'}", style: TextStyle(fontSize: 40, color: Colors.redAccent))
+        body: SingleChildScrollView(
+            child: Column(children: [
+          Container(
+            child: TextFormField(
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  hintText: "translation"),
+              style: TextStyle(fontSize: 20, color: Colors.white),
+              keyboardType: TextInputType.multiline,
+              controller: _translationController,
+              maxLines: null,
+              expands: false,
+              readOnly: true,
+              textAlign: TextAlign.center,
             ),
-        Wrap(
-          children: hint ?? Text(""),
-          alignment: WrapAlignment.center,
-        )
-      ])),
-      backgroundColor: OptionData.main_BG_color,
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.arrow_right, size: 50),
-        onPressed: () {
-          reFrame(context);
-        },
-      ),
-      resizeToAvoidBottomInset: false,
-    );
+            padding: EdgeInsets.fromLTRB(20, 5, 20, 0),
+          ),
+          Container(
+            child: TextFormField(
+              textInputAction: TextInputAction.done,
+              onFieldSubmitted: (value) => reFrame(context),
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  hintText: "write correct context"),
+              style: TextStyle(fontSize: 20, color: Colors.white),
+              keyboardType: TextInputType.text,
+              controller: _wordsController,
+              maxLines: null,
+              expands: false,
+              textAlign: TextAlign.center,
+            ),
+            padding: EdgeInsets.fromLTRB(20, 10, 20, 0),
+          ),
+          Container(
+              padding: EdgeInsets.fromLTRB(0, 30, 0, 20),
+              child: _matched.every((e) => e)
+                  ? null
+                  : SizedBox(
+                      height: 60,
+                      child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        shrinkWrap: true,
+                        //physics: NeverScrollableScrollPhysics(),
+                        itemBuilder: (_, index) => Container(
+                            width: 21,
+                            color: _matched[index] ? Colors.green : Colors.red,
+                            child: Text(
+                              "$index",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            alignment: Alignment.center,
+                            margin: EdgeInsets.symmetric(horizontal: 1)),
+                        itemCount: _aContext.words.length,
+                      ))
+
+              //Text("${_matched.every((e)=>e) ? '' : '틀렸다'}", style: TextStyle(fontSize: 40, color: Colors.redAccent))
+              ),
+          Wrap(
+            children: hint ?? Text(""),
+            alignment: WrapAlignment.center,
+          )
+        ])),
+        backgroundColor: OptionData.main_BG_color,
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.arrow_right, size: 50),
+          onPressed: () {
+            reFrame(context);
+          },
+        ),
+        resizeToAvoidBottomInset: false,
+      );
+    })());
   }
 }
 
