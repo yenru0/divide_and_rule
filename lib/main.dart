@@ -347,10 +347,12 @@ class _ExecutingState extends State<Executing> {
 
               //Text("${_matched.every((e)=>e) ? '' : '틀렸다'}", style: TextStyle(fontSize: 40, color: Colors.redAccent))
               ),
-          Wrap(
-            children: hint ?? Text(""),
-            alignment: WrapAlignment.center,
-          )
+          Container(
+              child: Wrap(
+                children: hint ?? Text(""),
+                alignment: WrapAlignment.center,
+              ),
+              padding: EdgeInsets.fromLTRB(0, 0, 0, 70))
         ])),
         backgroundColor: OptionData.main_BG_color,
         floatingActionButton: FloatingActionButton(
