@@ -32,7 +32,6 @@
         "result": ";"
       },
       {
-        
         "translation": "그래서, 비록 각각의 종이 매일매일 놀라울 정도로 정확하게 자신의 상대적 시간대를 지키는 경향이 있지만, 새의 노래는 아마도 여러분의 시계를 진정으로 대체하는 것으로서 이상적이지는 않을것이다.",
         "words": "so bird song is perhaps not ideal as a genuine replacement for your watch although each species tends to observe its relative time slot day by day with astonishing accuracy",
         "result": ";"
@@ -120,7 +119,6 @@
         "words": "hence even materials that contain large amounts of radioactive constituents often are immobilized conditioned and safely stored and disposed of rather than recycled",
         "result": ""
       }
-
     ]
   },
   "14-04": {
@@ -334,6 +332,675 @@
       {
         "translation": "이제, 새로운 도구는 언어에 새로운 활력을 부여하고 소멸 위기에 처한 언어 사용자들을 유지할 가능성을 만들고 있다.",
         "words": "now new tools create the possibility for revitalizing languages and retaining language speakers of endangered languages",
+        "result": ""
+      }
+    ]
+  },
+  "15-01": {
+    "contexts": [
+      {
+        "translation": "몇몇 연구는 다른 사람들에 의해 배척, 배제 또는 거부당한 개인들이 자신들이 결국 받아들여질 가능성을 증가시키는 방식으로 행동한다는 것을 보여 주었다.",
+        "words": "several studies have shown that individuals who are ostracized excluded or rejected by others behave in ways that will be increase their changes of eventually becoming accepted",
+        "result": ""
+      },
+      {
+        "translation": "이러한 행동들은 집단 환경에서 더 열심히 일하는 것에서부터 집단 인식에 순응하는 것, 또는 타인에 대한 정보에 더 민감한 것까지 다양하다.",
+        "words": "these behaviors range from working harder in group settings, to conforming to group perceptions or being more sensitive to information about others",
+        "result": ""
+      },
+      {
+        "translation": "예를 들어 Williams와 Sommer는 여성들이 이후의 집단 과제에 대한 노력을 증가시킴으로써 배척에 대응한다는 것을 발견했다.",
+        "words": "for example Williams and Sommer found that women responded to ostracism by increasing their efforts on a subsequent group task",
+        "result": ""
+      },
+      {
+        "translation": "마찬가지로, Williams, Cheung, Choi는 외면당한 개인들이 다른 사람들보다 타인의 의견에 순응할 가능성이 더 높다는 것을 알아냈다.",
+        "words": "similarly Williams, Cheung and choi observed that ostracized individuals were more likely than others to conform to the opinions of other people",
+        "result": ""
+      },
+      {
+        "translation": "따라서 이런 연구들은 사회적 거부에 대한 대응으로 사람들이 자신들의 사회 세계와 다시 연결하려고 시도한다는 것을 보여 준다.",
+        "words": "thus, these studies show that in response to social rejection people seek to reconnect themselves with their social worlds",
+        "result": ""
+      },
+      {
+        "translation": "또한 Gardner, Pickett, Brewer는 사회적 거부를 경험한 개인이 사회적으로 관련이 있는 정보를 기억할 가능성이 더 높다는 것을 발견했다.",
+        "words": "in addition, Gardner, Pickett, and Brewer found that individuals who experience social rejection are more likely to remember socially relevant information",
+        "result": ""
+      },
+      {
+        "translation": "그러므로 귀속 욕구는 사람들의 동기와 일치하는 정보의 처리와 보유를 유도하는 것으로 보인다.",
+        "words": "thus, belongingness needs appear to guide the processing and retention of information that is consistent with one's motive",
+        "result": ""
+      }
+    ]
+  },
+  "15-02": {
+    "contexts": [
+      {
+        "translation": "'일하는 뇌'의 저자인 David Rock은 창의력과 스트레스에 대한 뇌의 복잡한 메커니즘을 대단히 흥미롭게 상세하게 묘사했다.",
+        "words": "david rock, author of your Brain at Work has described in fascinating detail the intricate mechanics of the brain on creativity and stress",
+        "result": ""
+      },
+      {
+        "translation": "예를 들어, 우리는 자칭 행복한 사람들이 새로운 생각을 더 많이 가지고 있다는 것을 안다.",
+        "words": "we know, for example, that self-described happy people have more new ideas",
+        "result": ""
+      },
+      {
+        "translation": "우리는 이제 스트레스가 인지 자원을 감소시키는 반면, 주의 깊음은 소위 뇌의 '지향하는 상태', 즉 가능성에 대한 개방성을 유도한다는 것을 안다.",
+        "words": "we now know that stress decreases our cognitive resources, whereas mindfulness induces what is called a toward state in the brain an openness to possibilities",
+        "result": ""
+      },
+      {
+        "translation": "이런 상태에서 우리는 호기심을 갖고, 열린 마음을 느끼고, 자신이 하고 있는 일에 흥미를 느끼는데, 그것들은 모두 직장에서 성공할 수 있는 훌륭한 자질이다.",
+        "words": "in this condition, we feel curious open-minded, and interested in what we are doing all excellent qualities for thriving on the job",
+        "result": ""
+      },
+      {
+        "translation": "신경과학은 창의성과 참여가 사람들을 더 행복하게 하는 데 필수적이라고 말한다.",
+        "words": "Neuroscience tells us that creativity and engagement are essential to making people happier",
+        "result": ""
+      },
+      {
+        "translation": "그러나 지금 세상의 기술상의 맹공격은 또한 많은 스트레스가 될 수 있다.",
+        "words": "but the technological onslaught of today's world can also become highly stressful",
+        "result": ""
+      },
+      {
+        "translation": "우리가 계속 접속된 상태로 있음으로 인해 장시간 노동, 힘든 일, 많은 스트레스는 더 악화된다.",
+        "words": "long hours, hard work, and high pressure are made worse by our being permanently plugged in",
+        "result": ""
+      },
+      {
+        "translation": "노트북 컴퓨터, 고속 인터넷, 모바일 기술, 소셜 미디어의 도입은 우리가 연결되는 방식에 있어서 훌륭한 장점을 갖고 있지만, 그것들은 또한 지향하는 상태를 멈추게 하고 우리를 자동조종 상태에 두는 행동들을 강화한다.",
+        "words": "though the introduction of laptop computers high-speed internet, mobile technology, and social media has wonderful advantages in how we connect, they also reinforce behaviors that shut down the toward state and set us on autopilot",
+        "result": ""
+      }
+    ]
+  },
+  "15-03": {
+    "contexts": [
+      {
+        "translation": "멍게에게 있어서, 이분화된 생애 주기는 매우 분명한 이득을 제공한다.",
+        "words": "for sea squirts, a two-part life cycle provides a quite obvious advantage",
+        "result": ""
+      },
+      {
+        "translation": "성체 멍게들은 해저면에 붙어서 매우 편안하게 살아간다.",
+        "words": "adult sea squirts live very nicely, attached to the sea bottom",
+        "result": ""
+      },
+      {
+        "translation": "ㄱ것들이 필요로 하는 모든 먹이는 해류를 타고 자신들에게 흘러오므로 그것들은 절대로 움직일 필요가 없다.",
+        "words": "all the food they need comes drifting to them in the ocean currents, and they never have to move",
+        "result": ""
+      },
+      {
+        "translation": "그들은 심지어 짝짓기를 위해 서로 만나야 하는 문제까지도 바닷물 속으로 정자와 난자를 뿜어냄으로써 해결했다.",
+        "words": "they have even solved the problem of getting together to mate by shooting their sperms and eggs out into the water",
+        "result": ""
+      },
+      {
+        "translation": "하지만, 새끼 멍개들이 즉각적으로 해저면에 정착한다면, 멍게 군집은 곧 매우 조밀해져서 새끼 멍게들이 서로 포개어져서 성장해야만 할 것이다.",
+        "words": "but then, if the young sea squirts immediately settled down to the bottom, the sea squirt colony would soon be so crowded that they would have to grow on top of each other",
+        "result": ""
+      },
+      {
+        "translation": "좁은 지역에 매우 빽빽하게 들어차 있어서, 거대한 멍게 무리를 먹여 살리기에 충분한 먹이가 없게 될 것이다.",
+        "words": "there would not be enough food to feed the huge crowds of sea squirts, all jammed into a small area",
+        "result": ""
+      },
+      {
+        "translation": "그래서 그 대신에, 올챙이처럼 헤엄치는 멍게의 유충들은 즉각적으로 정착하지 않는다. 그들은 해류를 따라 헤엄치고 흘러 다닌다.",
+        "words": "so instead, the tadpole-like swimming larvae of the seq squirts do not settle down immediately",
+        "result": ""
+      },
+      {
+        "translation": "그들은 해류를 따라 헤엄치고 흘러 다닌다.",
+        "words": "they swim and drift with the ocean currents",
+        "result": ""
+      },
+      {
+        "translation": "성체로 변모하여 해저면에 자리를 잡을 준비가 될 때, 그들은 넓은 영역에 걸쳐 이미 흩어져 있게 된다.",
+        "words": "by the time they are ready to change to adults and take up a place on the ocean bottom, they have been scattered over a wide area",
+        "result": ""
+      }
+    ]
+  },
+  "15-04": {
+    "contexts": [
+      {
+        "translation": "후광 효과로 인해 어떤 사람의 한 가지 특성은 그 사람의 다른 모든 특성에 대한 여러분의 태도와 인식에 영향을 끼치게 된다.",
+        "words": "the halo effect causes one trait about a person to color your attitude and perceptions of all her other traits",
+        "result": ""
+      },
+      {
+        "translation": "훨씬 더 이상하게도, 여러분이 여러분의 첫인상을 형성할 때 그 모습이 더 두드러질수록, 그 모습에 관한 여러분의 태도를 바꾸는 것은 더 어려워진다.",
+        "words": "even stranger the more noticeable the aspect is when you form your first impression, the more difficult it becomes to change your attitude about that aspect",
+        "result": ""
+      },
+      {
+        "translation": "그래서, 예를 들면, 여러분이 새로운 직장에서 첫 한 주일 동안 어떤 직장 동료의 따뜻함과 친절함에 강한 인상을 받는다면, 여러분은 나중에, 아마도 심지어 수년 동안 그 사람이 많은 불쾌한 행동을 해도 그냥 넘어가게 해 줄 것이다.",
+        "words": "so, for example, if you are bowled over by the warmth and kindness of a coworker in your first week at a new job, you will let him get away with a host of obnoxious behaviors later on, maybe even for years",
+        "result": ""
+      },
+      {
+        "translation": "관계를 맺는 첫해가 매우 만족스럽고 인생을 바꿀 정도라면, 이후에 일이 틀어질 경우 알아차리는 데 긴 시간이 걸릴 수 있다.",
+        "words": "if the first year of a relationship is deeply fulfilling and life-altering it can take a long time to notice if things turn sour later",
+        "result": ""
+      },
+      {
+        "translation": "여러분이 어떤 개인의 특정 측면을 좋아한다면, 후광 효과로 인해 그 긍정적인 평가가 다른 측정치로 퍼져나가 공격에 저항하게 된다.",
+        "words": "if you like specific aspects of an individual, the halo effect causes the positive appraisal to spread to other measurements and to resist attack",
+        "result": ""
+      },
+      {
+        "translation": "아름다운 사람들은 더 똑똑한 것처럼 보이고, 강한 사람들은 더 고결한 것처럼 보이며, 친절한 사람들은 더 신뢰할 수 있는 것처럼 보이는 것 등이 그러하다.",
+        "words": "beautiful people seem more intelligent strong people seem nobler, friendly people seem more trustworthy, and so on",
+        "result": ""
+      },
+      {
+        "translation": "그들이 미흡할 때, 여러분은 때때로 무의식적으로 그들은 용서하고 방어한다.",
+        "words": "when they fall short you forgive and defend them sometimes unconsciously",
+        "result": ""
+      }
+    ]
+  },
+  "15-05": {
+    "contexts": [
+      {
+        "translation": "물속 높은 압력에서 작업하는 잠수부들은 보통 산소와 헬륨의 혼합물인 '공기'를 마신다.",
+        "words": "Divers working at high pressures underwater usually breathe air that is a mixture of oxygen and helium",
+        "result": ""
+      },
+      {
+        "translation": "헬륨은 이 혼합물에서 질소를 대체하는데 그 이유는 헬륨이 질소보다 용해성이 덜하고 따라서 혈류에서 용해될 가능성이 덜하기 때문이다.",
+        "words": "helium is substituted for nitrogen in this mixture because it is less soluble than nitrogen and therefore less likely to dissolve in the bloodstream",
+        "result": ""
+      },
+      {
+        "translation": "이는 '잠수병'이라 불리는 잠수의 주된 위험 중의 하나에 대해 더 나은 보호를 제공한다.",
+        "words": "this offers better protection against one of the major hazards of diving, called the bends",
+        "result": ""
+      },
+      {
+        "translation": "만일 잠수부가 잠수 후에 너무 빨리 수면으로 돌아오면 물속 깊은 곳보다 상대적으로 더 낮은 수면의 압력이 용해된 기체로 하여금 혈액의 용액 밖으로 거품이 되어 빠져나오게 한다.",
+        "words": "if a diver returns to the surface too quickly after a dive the relatively lower pressure at the surface than deep underwater causes dissolved gases to bubble out of solution in the blood",
+        "result": ""
+      },
+      {
+        "translation": "그 효과는 병뚜껑을 제거했을 때 탄산수 병 안에서 거품이 이는 것과 비슷하다.",
+        "words": "the effect is similar to the frothing in a bottle of soda water when the cap is removed",
+        "result": ""
+      },
+      {
+        "translation": "인체에서 이렇게 방출되는 기체 거품은 보통 관절에 갇히게 되는데 이것이 잠수부에게 극심한 통증을 유발한다.",
+        "words": "in human bodies the gas bubbles released in this way often get trapped in the joints causing extreme pain for the diver",
+        "result": ""
+      },
+      {
+        "translation": "이 통증은 흔히 잠수부가 자세를 똑바로 하는 것을 불가능하게 만드는데, 이 질환이 the bends라고 적절하게 이름 붙여진 것은 바로 이런 이유 때문이다.",
+        "words": "this pain often makes it impossible for the diver to straighten up which is why this condition is aptly named the bends",
+        "result": ""
+      }
+    ]
+  },
+  "15-06": {
+    "contexts": [
+      {
+        "translation": "1900년대 초반 영국에서 자신의 땅이 파도의 작용으로 침식되고 있던 토지 소유자들이 정부에게 예방 조처를 취하라고 아우성쳤다.",
+        "words": "in england in the early 1900s property owners whose land was being eroded by wave action clamored for the government to take preventive action",
+        "result": ""
+      },
+      {
+        "translation": "그들의 섬이 바다 밑으로 사라지고 있었던 것이다!",
+        "words": "their island was disappearing beneath the sea",
+        "result": ""
+      },
+      {
+        "translation": "그들이 너무나도 시끄럽게 주장해서 왕립위원회가 그 문제를 조사하도록 지정되었다.",
+        "words": "they argued so loudly that a royal commission was appointed to study the matter",
+        "result": ""
+      },
+      {
+        "translation": "주의 깊은 조사 후, 그 위원회는 35년 동안 잉글랜드와 웨일스에서 4,692에이커가 사라지고 35,444에이커가 생겨서 1년에 거의 900에이커의 순증가가 발생했다고 보고했다.",
+        "words": "after making a careful survey, the commission reported that over a period of thirty-five years england and wales lost 4,692 acres and gained 35,444 acres, giving a net gain of nearly nine hundred acres a year",
+        "result": ""
+      },
+      {
+        "translation": "이 조사 결과는 땅이 사라진 사람들이 땅이 커지고 있던 사람들보다 더 큰 소리로 불평했다는 점을 입증하는 듯했다.",
+        "words": "this finding seemed to prove that people whose land disappeared complained more loudly than those whose land was increasing",
+        "result": ""
+      },
+      {
+        "translation": "그렇지만, 잃어버린 땅은 아마도 극적으로 사라진 탁 트인 해변의 멋진 절벽 부지였던 반면 얻은 땅은 저지대의 모래땅이며 별로 가치가 없었다는 점이 인정되어야 한다.",
+        "words": "it must be admitted however that the land lost probably was good cliffland on the open coast which disappeared in a spectacular way whereas the land gained wa low, sandy and not particularly valuable",
+        "result": ""
+      },
+      {
+        "translation": "지질학자가 아닌 사람들은 변화가 매우 천천히 일어나는 것처럼 보여도 절벽의 존재 자체가 침식 작용이 일어나고 있다는 경고라는 것을 대체로 인식하지 못한다.",
+        "words": "non-geologists are usually not aware that the very existence of a cliff is warning that erosional processes are at work, even though the changes seem to very slow",
+        "result": ""
+      }
+    ]
+  },
+  "15-07": {
+    "contexts": [
+      {
+        "translation": "고체는 전체로서 응집한다.",
+        "words": "solid objects cohere as wholes",
+        "result": ""
+      },
+      {
+        "translation": "그것의 모양은 탄성이 있는 정도까지 어느 정도 변형될 수 있지만, 그것은 대체로 가해지는 힘의 방향으로 전체로서 속력이 더해지거나 움직이는 경향이 있다.",
+        "words": "while their shapes can be distorted to some degree to the extent that they are elastic in the main they accelerate or tend to move as wholes in the direction of an applied force",
+        "result": ""
+      },
+      {
+        "translation": "이 점에 있어서 액체는 다르다.",
+        "words": "bodies of liquid differ in this respect",
+        "result": ""
+      },
+      {
+        "translation": "그것은 담는 용기나 담긴 고체에 따라 그 모양을 자유로이 바꾸고, 천천히 액체를 가르며 움직이는 고체에 그저 길을 내준다.",
+        "words": "they freely adapt their shape to a containing vessel or an immersed solid and will simply give way to a solid object moving slowly through them",
+        "result": ""
+      },
+      {
+        "translation": "만약 액체가 어떤 힘의 영향을 받는다면, 그것은 그 힘의 방향으로 전체로서 움직이는 경향을 보이지는 않을 것이다.",
+        "words": "if a liquid body is subject to a force it will not tend to move as a whole in the direction of that force",
+        "result": ""
+      },
+      {
+        "translation": "그러기는커녕 가해지는 힘은 그 액체에 의해, 액체가 응집하는 어떤 경향에도 구애되지 않고 그 액체에게 트인 방향이면 어디로든지 움직이도록 강제하는 등방성의 힘으로 전환된다.",
+        "words": "rather, the applied force is converted by the liquid into an isotropic one that will urge the liquid to move in any direction open to it, unconstrained by any tendency for the liquid body to cohere",
+        "result": ""
+      },
+      {
+        "translation": "물은 파이프를 압박하는 수압의 무게 방향만이 아니라 어느 방향으로든 똑같이 순조로이 파이프에서 으레 새어 나오게 된다.",
+        "words": "water will tend to leak from a pipe with equal facility in any direction and not just in the direction of the weight of the head of water bearing down on it",
+        "result": ""
+      }
+    ]
+  },
+  "15-08": {
+    "contexts": [
+      {
+        "translation": "주관성은 모든 예술의 필수적인 부분이고 때로는 전혀 그럴 것 같지 않은 곳에서조차 우리는 예술가와 관람객 사이의 포괄적인 소통이 매우 어렵다고 생각한다.",
+        "words": "subjectivity is an integral part of all art, and sometimes, even where it seems the least likely, one finds a comprehensive communication between the artist and the audience very difficult",
+        "result": ""
+      },
+      {
+        "translation": "예를 들어 추상화에서뿐만 아니라 가장 직접적인 그림에서도 말이다.",
+        "words": "for example, not just in abstract painting, but in the most straightforward painting",
+        "result": ""
+      },
+      {
+        "translation": "Leonardo da Vinci가 그린 '모나리자'라는 가장 잘 알려진 그림 중 하나를 예로 들어보자.",
+        "words": "just take one of the best-known paintings, the Mona Lisa, painted by Leonardo da Vinci",
+        "result": ""
+      },
+      {
+        "translation": "이 그림이 한 여성의 초상화라는 것은 아무도 오해하지 않는데, 그만큼은 우리가 안다.",
+        "words": "no one mistakes that this painting iss the portrait of a woman that much we know",
+        "result": ""
+      },
+      {
+        "translation": "그러나 이 그림에서 호기심을 자아내는 그 미소는 이 미소가 어떤 마음 상태를 묘사하는지와 관련하여 참으로 많은 서로 다른 방식으로 해석된다.",
+        "words": "however, the intriguing smile in this painting is interpreted in so many different ways, in terms of what state of the mind this smile depicts",
+        "result": ""
+      },
+      {
+        "translation": "따라서 관람객은 예술가가 정확히 무엇을 생각하고 있었는지를 절대로 확신할 수 없다.",
+        "words": "therefore, and audience can never be sure exactly what the artist had in mind",
+        "result": ""
+      },
+      {
+        "translation": "이것은 모든 면에서 그러하며, 따라서 대부분의 예술가와 관람객들 사이에서 예술품만을 통하여 완벽한 소통은 일어날 수 없다.",
+        "words": "this holds true on all levels, and thus, perfect communication cannot occur between most artists and their audiences through their art alone",
+        "result": ""
+      }
+    ]
+  },
+  "16-01": {
+    "contexts": [
+      {
+        "translation": "최근의 연구는 나무들이 우리가 오랫동안 생각했던 것만큼 수동적인 것은 아님을 보여 주었다.",
+        "words": "recent research has shown that trees are not as passive as we long supposed",
+        "result": ""
+      },
+      {
+        "translation": "이를 더 조사하기 위하여 유럽의 과학자들은 작은 너도밤나무와 단풍나무에 공격 모의실험을 했다.",
+        "words": "to investigate this further, european scientists simulated attacks on small beeches and maples",
+        "result": ""
+      },
+      {
+        "translation": "노루가 어린나무의 맨 꼭대기에 자란 부분을 물어뜯어 먹을 때마다 노루는 상처 부위에 약간의 침을 남기는데, 상처 입은 나무들이 이 침의 존재를 분명히 감지할 수 있다는 것이 곧 분명해졌다.",
+        "words": "whenever a roe deer takes a bite out of the top growth of a young tree, it leaves a little saliva behind in the wound, and it soon became clear that wounded trees can clearly detect the presence of this saliva",
+        "result": ""
+      },
+      {
+        "translation": "노루가 뜯어 먹는 것을 모의실험하기 위해 연구자들은 싹이나 잎을 잘라 내고는 그 손상된 부위에 노루 침을 떨어뜨렸다.",
+        "words": "to simulate browsing by roe deer, the researchers cut off buds leaves and dripped roe deer saliva onto the damaged areas",
+        "result": ""
+      },
+      {
+        "translation": "그들이 알게 된 것은 그 작은 나무들이 이에 반응하여 살리실산을 만들어 냈고 이것이 결과적으로 맛이 안 좋은 방어 화합물 생산의 증ㅇ가로 이어졌으며, 이것이 노루가 그것들을 먹는 것을 막았다는 것이다.",
+        "words": "what they noticed was that in response the little trees produced salicylic acid, which in turn led to an increased production of bad-tasting defensive compounds",
+        "result": ""
+      },
+      {
+        "translation": "그러나 과학자들이 침을 전혀 바르지 않고 새로 자란 부분을 단지 부러뜨리기만 했을 때는 너도밤나무와 단풍나무가 생산한 것은 가능한 빨리 손상 부위를 치료하기 위한 호르몬뿐이었다.",
+        "words": "however, when the scientists simply broke off new growth without applying any saliva, all the beeches and maples produced were hormones to heal the damage as quickly as possible",
+        "result": ""
+      },
+      {
+        "translation": "최근의 연구는 나무들이 포식자의 공격을 인식할 수 있고 그에 대한 보호책으로 그것들이 불쾌한 맛이 나는 화학물질을 생산한 다는 것을 보여 주었다.",
+        "words": "recent research has shown that trees are able to recognize predator attacks, and for protection against them, they produce foul-tasting chemicals",
+        "result": ""
+      }
+    ]
+  },
+  "16-02": {
+    "contexts": [
+      {
+        "translation": "역사언어학자들은 오늘날 사용되고 있는 언어들을 연구하고, 그것들로부터 그것들이 유래한 조상어에 관해 추정한다.",
+        "words": "historical linguists study the languages spoken today, and from them make estimates about the ancestral languages from which they descended",
+        "result": ""
+      },
+      {
+        "translation": "가능한 상황에서라면, 언어학자들은 또한 옛날의 언어에 관한 기록된 자료로부터 연구하기도 한다.",
+        "words": "where possible, linguists also work from written records on languages in earlier times",
+        "result": ""
+      },
+      {
+        "translation": "언어학의 경우 유전학의 경우와 마찬가지로, 우리는 현재의 자료가 우리에게 엣날 공동체들의 자취를 제공한다고 여긴다.",
+        "words": "for linguistics as for genetics, we assume that present data give us the remnants of earlier communities",
+        "result": ""
+      },
+      {
+        "translation": "그러나, '옛날 공동체'의 정의는 각각의 경우에 서로 다르다.",
+        "words": "but the definition of earlier community is different in each case",
+        "result": ""
+      },
+      {
+        "translation": "언어의 경우, 각각의 언어는 하나의 조상을 갖는다고 여겨진다.",
+        "words": "for language it is assumed that each language has one parent",
+        "result": ""
+      },
+      {
+        "translation": "하나의 언어는 각 단계에서 하나의 조상만을 가지는 반면, 유전학의 경우에 한 사람은 더 이전 세대로 올라갈수록 점점 더 많은 조상들을 가진다.",
+        "words": "in genetics a person has more and more ancestors as one goes to earlier generations while a language has a single ancestor at each stage",
+        "result": ""
+      },
+      {
+        "translation": "언어의 '가계도 모형'은 조상으로부터 유래된 언어들의 범위를 제시해 주고, 동일한 조상으로부터 유래된 다른 언어들과의 관계를 보여 준다.",
+        "words": "the tree model of languages presents the range of languages descended from an ancestor, and indicates relationships with other languages descended from the same ancestor",
+        "result": ""
+      },
+      {
+        "translation": "언어학적 '가계도 모형'의 단일 조상의 특성 때문에, 언어는 옛 인류의 이주 경로에 관해 유전학이 제공하는 것보다 더 많은 증거를 제공해 주는데, 이는 그것이 더 적은 가능성을 허락하기 때문이다.",
+        "words": "because of the single-ancestor characteristics of the linguistic tree model, language gives more evidence on path of early human migration than does genetics, because it allows for fewer possibilities",
+        "result": ""
+      },
+      {
+        "translation": "역사언어학은 이전 단계로 거슬러 올라가 현재의 단계를 추적하는 방법에 있어서 유전학과 유사하지만, 후기 형태가 유래된 각 단계에서 단일 독립체를 사용한다는 점에서 다르다.",
+        "words": "historical linguistics is similar to genetics in how it traces the present stage back to earlier ones but differs in that it uses a single entity at each stage from which descendants originate",
+        "result": ""
+      }
+    ]
+  },
+  "16-03": {
+    "contexts": [
+      {
+        "translation": "많이 변할수록 더 많이 그대로 남는다.",
+        "words": "the more things change, the more they stay the same",
+        "result": ""
+      },
+      {
+        "translation": "수 세기 동안 변함이 없는 한 가지는 부모들이 자기 주변에서 보는 새로운 종류의 세계에 대해 가지는 경멸이다.",
+        "words": "on things that has remained the same over the centuries is parental disdain for the new kind of world they see around them",
+        "result": ""
+      },
+      {
+        "translation": "이러한 세상은 우리에게는 단지 새로울 뿐이고, 그것은 우리의 자녀들이 알고 있는 유일한 세상이다.",
+        "words": "this world is only new to us, and it is the only one our children know",
+        "result": ""
+      },
+      {
+        "translation": "그들은 지난 20년 혹은 30년 동안 일어난 그런 사회 변화를 목도할 만큼 충분히 오래 살지 않았다.",
+        "words": "they have not lived long enough to see the kind of social change that has taken place in the last twenty or thirty years",
+        "result": ""
+      },
+      {
+        "translation": "그들에게는 자기 주변에서 보는 것이 '정상'이고, 역사에 관해 배우기 시작할 때까지는 그것을 비교해 볼 대상이 아무것도 없다.",
+        "words": "for them what they see around them is normal, and they have nothing to compare it with until they start to learn about history",
+        "result": ""
+      },
+      {
+        "translation": "늘 이런 식이었다.",
+        "words": "it has always been this way",
+        "result": ""
+      },
+      {
+        "translation": "부모들은 세상의 변화를 느끼지만, 자녀들은 그러지 못한다.",
+        "words": "parents feel the changes in the world kids do not",
+        "result": ""
+      },
+      {
+        "translation": "부모들은 흔히 방어적으로 반응하고, 자녀들은 그 모든 소란이 무엇에 관해서인지 이해하지 못한다.",
+        "words": "parents often react defensively and children do not understand what all the fuss is about",
+        "result": ""
+      },
+      {
+        "translation": "부모의 부정적인 반응은 흔히 변화에 대한 적대감에서 비롯된다.",
+        "words": "negative parental reactions often originate in hostility toward change",
+        "result": ""
+      },
+      {
+        "translation": "대부분의 성인은 자기 자신의 성격 형성기를 정상이라고 간주하고, 그 이후의 시기는 퇴보라고 간주하는 경향이 있다.",
+        "words": "most adults tend to see their own formative years as normal and what comes afterward as a decline",
+        "result": ""
+      },
+      {
+        "translation": "유일하게 불변하는 것은 변화이고, 부모와 자녀는 이것을 근본적으로 다른 방식으로 경험한다.",
+        "words": "the only constant is change, and parents and their children experience this in fundamentally different ways",
+        "result": ""
+      },
+      {
+        "translation": "부모는 변화에 대해 부정적인 태도를 보이는 경향이 있는데, 자녀는 변화 그 자체를 알지 못하기 때문에 이를 이해하지 못한다.",
+        "words": "parents tend to have a negative attitude toward changes, which their children, being unaware of change itself, do not understand",
+        "result": ""
+      }
+    ]
+  },
+  "16-04": {
+    "contexts": [
+      {
+        "translation": "과학 연구는 매우 빈번하게 국방을 위해 수행되거나 혹은 그 연구 결과의 적용으로부터 이익을 얻기를 바라는 민간 회사의 후원하에 수행되기 때문에, 공유권과 공개라는 규범은 흔히 유보된다.",
+        "words": "because scientific research is so often conducted in the interests of national defense or under the sponsorship of private firms that hope to profit from applications of the findings the norms of common  ownership and publication are often suspended",
+        "result": ""
+      },
+      {
+        "translation": "그런 상황은 과학계에서 무수한 갈등을 야기해 왔다.",
+        "words": "such situations have to led to innumerable conflicts in scientific circles",
+        "result": ""
+      },
+      {
+        "translation": "하나의 두드러진 사례는 인간 게놈, 즉 우리의 유전자를 구성하는 인간 DNA의 모든 연속체의 전체 지도와 목록을 공개하기 위한 경쟁이다.",
+        "words": "an outstanding example is the race to publish the complete map and inventory of the human genome all the sequences of human DNA that constitute our genes",
+        "result": ""
+      },
+      {
+        "translation": "2001년에 라이벌인 두 집단은 그 연구를 최초로 완수하기 위해 경쟁했는데, 한 집단은 J. Craig Venter가 이끈 민간 부문인 Celera Genomics 회사였고, 다른 하나는 Francis Collins가 이끌었던 정부가 지금을 지원한 연구소였다.",
+        "words": "in 2001 two rival groups raced to be the first to complete the research one in the private sector the Celera Genomics Corporation, led by J. Craig Venter, and the other a government-funded laboratory headed by Francis Collins",
+        "result": ""
+      },
+      {
+        "translation": "민간 회사가 인간의 유전자 연속체에 대한 특허를 확보하려 하는지, 즉 공개 규범의 위반인지 아닌지에 대해 논쟁이 맹렬하게 계속되었다.",
+        "words": "an argument raged over whether the private corporation was trying to establish patents on human genetic sequences a violation of the norm of openness",
+        "result": ""
+      },
+      {
+        "translation": "공공 연구소는 그런 사업상의 이해관계를 전혀 가지고 있지 않았고, 혹은 그렇다고 주장했다.",
+        "words": "the public laboratory had, or claimed to have no such business interest",
+        "result": ""
+      },
+      {
+        "translation": "결국 경쟁팀들은 타협하고 그 지도에 대한 공개물을 공동으로 발행했지만 유전 물질에 대한 특허를 발급하는 것에 대한 논쟁과 법적인 싸움이 진행되어 왔다.",
+        "words": "eventually the competing teams compromised and issued a joint publication of the map, but the controversy and legal battles over issuing patents for genetic material have continued",
+        "result": ""
+      },
+      {
+        "translation": "인간 게놈 지도와 목록의 공개의 경우에어와 같이, 공공과 민간의 자금 지원을 받은 동일한 주제에 대한 연구는 그 연구 결과의 독적점인 소유권에 대한 격렬한 논쟁을 유발할 수 있다.",
+        "words": "as in the case of the publication of the human genome map and inventory, publicly and privately funded research on the same topic may trigger heated debates over the exclusive ownership of research findings",
+        "result": ""
+      }
+    ]
+  },
+  "20-01": {
+    "contexts": [
+      {
+        "translation": "백만 년이 넘는 동안 인간은 야생에서 식량을 채집하고 동물을 사냥하면서 작은 규모의 이동하는 무리를 이루어 살았다.",
+        "words": "for over a million years humans lived in small, mobile groups gathering their food from the wild and hunting animals",
+        "result": ""
+      },
+      {
+        "translation": "물자가 허락되면 더 큰 집단으로 합쳤고, 때때로 특히 풍부한 식량원에 의존할 수 있을 때는 반정착민 생활을 헀다.",
+        "words": "when resources permitted, they came together in larger groups and occasionally, when they could rely on particularly rich sources of food, they became semi-sedentary",
+        "result": ""
+      },
+      {
+        "translation": "그러다가, 기원전 약 10,000년경, 마지막 빙하기가 끝나고 비교적 짧은 기간에 이 안정적이고 균형 잡힌 생활 방식이 변하기 시작했다.",
+        "words": "then, in a relatively short period of time after the end of the last ice age, about 10,000 BCE, this stable and well-balanced way of life began to change",
+        "result": ""
+      },
+      {
+        "translation": "전 세계적으로 인간은 서서히 한곳에 정착하여 채집한 식물을 특정한 작은 땅에서 기른 것으로 대체하기 시작했고, 몇몇 동물들 또한 사육되었다.",
+        "words": "across the world humans slowly began to settle in one location and replace gathered plants with ones grown on special plots of land while a few animals were also domesticated",
+        "result": ""
+      },
+      {
+        "translation": "만 년이 안되어서 이러한 새로운, 농경 생활 방식이 전 세계로 퍼져 나갔다.",
+        "words": "in less than ten thousand years this new, agricultural way of life had spread around the globe",
+        "result": ""
+      },
+      {
+        "translation": "사냥하고 채집하는 집단들이 살아남았지만 그들은 점차 더 변두리 지역과 농부들이 활용할 수 없는 지역으로 밀려났다.",
+        "words": "hunting and gathering groups survived but they were increasingly pushed into more marginal areas and those that the farmers could not utilize",
+        "result": ""
+      },
+      {
+        "translation": "20세기 무렵 그러한 사람들의 아주 소수 집단만이 살아남아서 인류학자들에 의해 연구되었다.",
+        "words": "by the twentieth century only a few groups of such people survived to be studied by anthropologists",
+        "result": ""
+      },
+      {
+        "translation": "농업의 채택은 인류 역사에서 가장 근본적인 변화였고, 우리가 문명이라고 부르는 모든 것과 기록된 인류 역사로 이어졌다.",
+        "words": "the adoption of farming was the most fundamental change in human history and led on to all that we call civilization and recorded human history",
+        "result": ""
+      }
+    ]
+  },
+  "20-02": {
+    "contexts": [
+      {
+        "translation": "대부분의 역사가들과 철학자들은 근대적 사고가 시작되게 하고 감정과 건강 사이의 아주 오래된 관계를 풀기 시작한 것은 바로 17세기 프랑스 철학자인 Rene Descartes의 가르침이었다는 것에 동의한다.",
+        "words": "most historians and philosophers agree that it was the teachings of the seventeenth-century french philosopher rene descartes that ushered in the thinking of the modern age and began the unraveling of the ancient link between emotions and health",
+        "result": ""
+      },
+      {
+        "translation": "종교 전쟁과 그로 인한, 그의 성인기 대부분의 기간 동안 유럽 전역에 퍼진 혼란에 대한 반응으로, Descartes는 근대 과학의 기본 원칙이 될 합리주의라는 개념과 가시적 증거의 필요성이라는 개념을 만들어 냈다.",
+        "words": "in his reaction to the religious wars and the resulting chaos that spread across europe for most of his adult life descartes formulated the concepts of rationalism and the necessity of visible proof that were to become the founding principles of modern science",
+        "result": ""
+      },
+      {
+        "translation": "그 시대에 감정은 마법과도 같은 것이어서 그 당시의 과학의 체계에서는 순식간에 지나가 정의할 수 없는 것처럼 보였다.",
+        "words": "in that era, emotions seemed to be a thing of magic, fleeting and undefinable in the framework of the science of the day",
+        "result": ""
+      },
+      {
+        "translation": "Descartes가 세상을 합리적인 것과 비합리적인 것으로, 즉 입증할 수 있는 것과 입증할 수 없는 것으로 질서 정연하게 나누었을 때, 감정과 그것의 건강과 질병에 대한 관계는 분명히 후자의 영역에 있게 되었다.",
+        "words": "in descartes's orderly division of the world into rational and irrational, provable and unprovable, emotions and their relationship to health and disease clearly fell into the latter domain",
+        "result": ""
+      },
+      {
+        "translation": "그리고 그러한 범주화에 이의를 제기할 정도로 충분히 강력한 과학 도구가 그것들을 구출할 수 있을 때까지 그것들은 거기에 그대로 남아 있었다.",
+        "words": "and there they remained until scientific tools powerful enough to challenge the categorization could rescue them",
+        "result": ""
+      }
+    ]
+  },
+  "20-03": {
+    "contexts": [
+      {
+        "translation": "유행과 사회적 압력은 바뀐다.",
+        "words": "fashions and social pressures shift",
+        "result": ""
+      },
+      {
+        "translation": "20세기의 거의 처음 세 분기에 해당하는 기간 내내 미국의 통나무집들은 노르웨이에서와 마찬가지로 대충만들어지고, 원시적이며, 하류 계층의 주택으로 여겨졌다.",
+        "words": "throughout almost the first three-quarters of the 20th century, log houses in the United States, as in norway were considered to be rough primitive, and low-class housing",
+        "result": ""
+      },
+      {
+        "translation": "그 결과 비막이 판자가 이전의 통나무 건출물 구조를 가리기 위해 널리 사용되었다.",
+        "words": "as a consequence weatherboards were widely used to mask earlier log construction",
+        "result": ""
+      },
+      {
+        "translation": "그러나 많은 사람들이 현재 상태에의 도전을 추구하고 있었던 번영의 1960년대에 유행은 바뀌었고, 사회적 압력은 완화되었다.",
+        "words": "however, in the prosperous 1960s, when many individuals  were seeking a challenge to the status quo, fashions changed and social pressure relaxed",
+        "result": ""
+      },
+      {
+        "translation": "이런 변화들은 변화하는 유행으로 성공을 구가하기를 바라던 사람들을 고무해서 숨겨져 있던 통나무 건물을 찾아내게 했고, 외장용 자재를 제거하게 했으며, 사회가 자신의 유산을 재발견하는 것을 자신들이 시각적으로 확인하는 만족감을 누리게 했다.",
+        "words": "these changes encouraged persons who wished to ride the crest of changing fashion, to seek out hidden log buildings, to remove the siding, and to enjoy the glow of their visual confirmation of society's rediscovery of its heritage",
+        "result": ""
+      },
+      {
+        "translation": "말할 필요도 없이, 이것은 널리 추구된 혁신적인 것이 아니었지만, 충분한 수의 부유한 사람들이 사회 지도자로서의 자신들의 지위 유지를 추구해서 정말로 그렇게 했다.",
+        "words": "needless to say, this was not a widely pursued innovation, but enough affluent people did do so in their quest to maintain their position as societal leaders",
+        "result": ""
+      },
+      {
+        "translation": "그 결과 통나무집은 그것을 원래 지었던 사람들의 인종적 배경에 상관없이 미국의 상징으로서의 자기 위치를 다시 분명히 했다.",
+        "words": "as a result, the log house reasserted its position as an american icon, regardless of the ethnic background of its original builders",
+        "result": ""
+      }
+    ]
+  },
+  "20-04": {
+    "contexts": [
+      {
+        "translation": "지질학자들이 암석과 지형을 인지하는 방식을 묘사하는 적절한 방법은, 새로운 문서가 새겨질 수 있게 하기 위해 이전의 잉크를 긁어낸 채로, 한 번 이상 사용된 양피지를 묘사하기 위해 중세 학자들이 사용한 용어인 palimpsest와의 비유이다.",
+        "words": "a suitable way to describe how geologists perceive rocks and landscapes is the metaphor of a palimpsest, the term used by medieval scholars to describe a parchment that was used more than once, with old ink scraped off to allow a new document to be inscribed",
+        "result": ""
+      },
+      {
+        "translation": "언제나, 지워 없애는 것은 불완전했고 이전 글의 흔적이 남았다.",
+        "words": "invariably, the erasure was imperfect, and traces of the earlier text survived",
+        "result": ""
+      },
+      {
+        "translation": " 이 남은 부분들은 엑스레이와 다양한 조명 기술을 사용해 읽을 수 있는데, 몇몇 경우에는 이것들이 아르키메데스의 가장 중요한 저작물 몇 개를 포함해서 매우 오래된 문서의 유일한 자료이다.",
+        "words": "these remnants can be read using X-rays and various illumination techniques, and in some cases are the only sources of very ancient documents including several of the most important writings of archimedes",
+        "result": ""
+      },
+      {
+        "translation": "같은 방식으로, 지구상의 모든 곳에서 새로운 장이 쓰여지고 있을 때에도, 이전 시대의 흔적들이 지형의 윤곽과 그 밑에 있는 암석에 남아 있다.",
+        "words": "in the same way, everywhere on earth traces of earlier eras persist in the contours of landforms and the rocks beneath, even as new chapters are being written",
+        "result": ""
+      },
+      {
+        "translation": "지질학이라는 학문은 지구라는 문서를 모든 차원에서 바라보기 위한 광학 장치와 유사하다.",
+        "words": "the discipline of geology is similar to an optical device for seeing the earth text in all its dimensions",
+        "result": ""
+      },
+      {
+        "translation": "지질학적으로 생각한다는 것은 표면에서 보이는 것뿐만 아니라 지표면 아래에 존재하는 것을 지금까지 그랬던 것과 앞으로 그럴 것들을 마음의 눈에 담는 것이다.",
+        "words": "to think geologically is to hold in the mind's eye what is not only visible at the surface but also present in the subsurface, what has been and will be",
         "result": ""
       }
     ]
