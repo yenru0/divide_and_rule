@@ -168,6 +168,8 @@ class _ExecutingState extends State<Executing> {
   TextEditingController _translationController = TextEditingController();
   TextEditingController _wordsController = TextEditingController();
 
+  List<bool> matchnow = List.generate(5, (index) => false);
+
   @override
   void initState() {
     super.initState();
@@ -203,11 +205,17 @@ class _ExecutingState extends State<Executing> {
     } else {
       _translationController.text = _aContext.translation ?? '';
       _wordsController.text = '';
-      var temp = List.generate((_aContext.words.length * OptionData.hint_rate).toInt(), (index) => Random().nextInt(_aContext.words.length)).toSet().toList();
-      temp.sort();
+      List<int> temp;
+      if (OptionData.mode_a) {
+        temp = List.generate((_aContext.words.length), (index) => index);
+        temp.shuffle(new Random());
+      } else {
+        temp = List.generate((_aContext.words.length * OptionData.hint_rate).toInt(), (index) => Random().nextInt(_aContext.words.length)).toSet().toList();
+        temp.sort();
+      }
       hint = temp
           .map(
-            (int e) => InkWell(
+            (int e) => new InkWell(
                 onTap: () {
                   if (_wordsController.text.endsWith(" ")) {
                     _wordsController.text += _aContext.words[e];
@@ -309,9 +317,9 @@ class _ExecutingState extends State<Executing> {
               textInputAction: TextInputAction.done,
               onFieldSubmitted: (value) => reFrame(context),
               decoration: InputDecoration(
-                  border: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                  focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
-                  enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: _matched.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  border: OutlineInputBorder(borderSide: BorderSide(color: matchnow.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: matchnow.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
+                  enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: matchnow.every((e) => e) ? Colors.blueAccent : Colors.redAccent)),
                   hintText: "write correct context"),
               style: TextStyle(fontSize: 20, color: Colors.white),
               keyboardType: TextInputType.text,
@@ -319,6 +327,11 @@ class _ExecutingState extends State<Executing> {
               maxLines: null,
               expands: false,
               textAlign: TextAlign.center,
+              onChanged: (value) {
+                setState(() {
+                  matchnow = judgeNow(value, _aContext);
+                });
+              },
             ),
             padding: EdgeInsets.fromLTRB(20, 10, 20, 0),
           ),
@@ -349,7 +362,7 @@ class _ExecutingState extends State<Executing> {
               ),
           Container(
               child: Wrap(
-                children: hint ?? Text(""),
+                children: hint ?? [Text("")],
                 alignment: WrapAlignment.center,
               ),
               padding: EdgeInsets.fromLTRB(0, 0, 0, 70))
@@ -411,6 +424,15 @@ class _OptionState extends State<Option> {
               ))
             ],
           )),
+          SwitchListTile(
+            title: Text("조합 모드", style: TextStyle(color: OptionData.main_text_color, fontWeight: FontWeight.bold)),
+            value: OptionData.mode_a,
+            onChanged: (bool value) {
+              setState(() {
+                OptionData.mode_a = value;
+              });
+            },
+          ),
           ListTile(),
           ListTile(),
           ListTile(

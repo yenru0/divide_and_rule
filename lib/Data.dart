@@ -90,6 +90,18 @@ List<bool> judgeContext(String result, Context context) {
   return accuracyList;
 }
 
+List<bool> judgeNow(String result, Context context) {
+  var temp = result.replaceAll('.', '').replaceAll(',', '').replaceAll('\'', '').replaceAll('\"', '').trim().toLowerCase().split(' ');
+  temp.removeWhere((element) => element.length == 0);
+  var accuracyList = List.generate(temp.length, (index) => false);
+  for (int i = 0; i < temp.length; i++) {
+    if (temp[i] == context.words[i]) {
+      accuracyList[i] = true;
+    }
+  }
+  return accuracyList;
+}
+
 class OptionData {
   OptionData.init() {}
 
@@ -102,4 +114,6 @@ class OptionData {
   static String additional_parameter_forced = "";
 
   static double hint_rate = 1.0;
+
+  static bool mode_a = false;
 }
